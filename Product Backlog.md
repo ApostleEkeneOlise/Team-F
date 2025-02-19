@@ -4,12 +4,12 @@ Product Backlog for Lost & Found Hub Webpage
 - As a visitor, I want a search bar to quickly check if my lost item has been reported.
 - As a visitor, I want to see a list of recently found items to increase the chances of retrieval.
   
-- User Login & Registration
+2. User Login & Registration
 
-As a user, I want to register using my email so I can report lost or found items.
-As a user, I want to log in securely with email and password authentication.
-As a user, I want to reset my password in case I forget it.
-As a user, I want to edit my profile to update my contact details.
+- As a user, I want to register using my email so I can report lost or found items.
+- As a user, I want to log in securely with email and password authentication.
+- As a user, I want to reset my password in case I forget it.
+- As a user, I want to edit my profile to update my contact details.
 
 3. Report Found Item
 

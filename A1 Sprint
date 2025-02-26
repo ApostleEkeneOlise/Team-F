@@ -1,0 +1,25 @@
+User Login (Admin) Acct setup:
+As an Admin I want to create a username and password, so i can securely access the lost and found hub admin portal.
+
+Acceptance criteria:
+Username and password creation- Admin can choose a unique username(email) and password
+Password must meet complexity rule
+Username must be unique i.e email
+
+User (Admim) secure login:
+As an Admin I want to log into the Lost and Found Hub admin portal with username and password so i can manage lost and found items and user inquiries securely.
+
+Acceptance Criteria:
+Login form:
+Fields: Username (email) and password 
+
+User Self-Registration:
+As a user i want to be able to register for an accoutn using my email and create a password, s i can report lost item or be able to claim found items.
+
+Acceptance Criteria:
+Registration form :
+Fields: Full name, email (required), password
+Terms of service and privacy policy links included
+
+Validation:
+Email must be unique 

@@ -17,7 +17,7 @@ CREATE TABLE users (
 
 Admin Account Setup (PHP + MySQL)
 
-Create a file named admin_setup.php for admin account creation
+ Admin_setup.php for admin account creation
 <?php
 // Database connection
 $conn = new mysqli('localhost', 'root', '', 'lost_and_found');

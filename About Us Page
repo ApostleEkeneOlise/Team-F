@@ -20,22 +20,22 @@
   </header>
 
   <section class="about-container">
-    <h2>About Us</h2>
+    <h2>About Us</h2><br>
     <p>
       Welcome to the <strong>Lost and Found Hub</strong>, your go-to platform for reporting and finding lost items.
       Our mission is to help people reunite with their lost belongings and return found items to their rightful owners.
-    </p>
+    </p><br>
     <p>
       Whether you've lost something precious or found an item that doesn't belong to you, our platform makes it easy
       to connect with others and resolve lost and found cases quickly.
-    </p>
+    </p><br>
     <p>
       Join our community today and make a difference!
-    </p>
+    </p><br>
   </section>
 
   <footer>
-    <p>&copy; 2025 Lost and Found Hub. All rights reserved.</p>
+    <p>Lost and Found Hub. All rights reserved. (c) 2025</p>
   </footer>
 </body>
 </html>

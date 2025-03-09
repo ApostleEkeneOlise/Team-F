@@ -21,10 +21,10 @@
 
   <main>
     <section class="overview">
-      <h2>System Overview</h2>
+      <h2>System Overview</h2><br>
       <div class="stats">
         <div class="stat">
-          <h3>Total Users</h3>
+          <h3>Total Users</h3><br>
           <p id="total-users">0</p>
         </div>
         <div class="stat">
@@ -32,7 +32,7 @@
           <p id="total-lost-items">0</p>
         </div>
         <div class="stat">
-          <h3>Total Found Items</h3>
+          <h3>Total Found Items</h3><br>
           <p id="total-found-items">0</p>
         </div>
       </div>

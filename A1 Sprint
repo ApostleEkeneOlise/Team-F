@@ -14,7 +14,7 @@ Login form:
 Fields: Username (email) and password 
 
 User Self-Registration:
-As a user i want to be able to register for an accoutn using my email and create a password, s i can report lost item or be able to claim found items.
+As a user i want to be able to register for an accoutn using my email and create a password, so i can report lost item or be able to claim found items.
 
 Acceptance Criteria:
 Registration form :

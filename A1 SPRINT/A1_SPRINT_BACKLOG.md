@@ -29,7 +29,8 @@ Acceptance Criteria:
 
 
 A1 SPRINT BACKLOG ITEM 2
-"As a registered user, I want to log in and log out securely so that I can access my account.
+
+~As a registered user, I want to log in and log out securely so that I can access my account.
 
 Acceptance Criteria:
 1. Users can log in with email and password.
@@ -38,6 +39,7 @@ Incorrect login attempts show an error message.
 
 
 A1 SPRINT BACKLOG ITEM 3
+
 ~As an admin, I want to log in securely to the admin panel so that I can see reports and maintain the integrity of the platform."
 
 Acceptance Criteria:

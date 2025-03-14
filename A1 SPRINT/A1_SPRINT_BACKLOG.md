@@ -1,15 +1,19 @@
 A1 SPRINT BACKLOG
 
 
-~As a new user, I want to register using my email and password so that I can create an account.
+~As a new user, I want to register using my email and password so that I can create an account. 
+(Medium)
 
 ~As a registered user, I want to log in and log out securely so that I can access my account.
+(Medium)
 
-~As an admin, I want to log in securely to the admin panel so that I can see reports and maintain the integrity of the platform.
+~As an admin, I want to log in securely to the admin panel so that I can see reports and maintain the integrity of the platform. (Medium)
 
-~As an admin, I want to access a dashboard where I can review, verify, and approve lost and found reports.
+~As an admin, I want to access a dashboard where I can review, verify, and approve lost and found reports.(Medium)
 
-~As a user, I want to reset my password via email, so that I can regain access to my account if I forget my password.
+~As a user, I want to reset my password via email, so that I can regain access to my account if I forget my password.(Medium)
+
+Effort indicators (Small, Medium, Large)
 
 
 A1 SPRINT BACKLOG ITEM 1

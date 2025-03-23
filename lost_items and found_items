@@ -1,0 +1,186 @@
+lost_items and found_items 
+
+ 
+
+SQL 
+
+CREATE   TABLE   lost_items ( 
+
+              Id INT AUTO_INCREMENT PRIMARY  KEY, 
+
+               Item_name  VAECHAR(255), 
+
+               description   TEXT, 
+
+                Color VARCHAR(100), 
+
+                Contact_info VARCHAR(255), 
+
+                date_lost DATE             
+
+); 
+
+ 
+
+CREATE  TABLE  found_items   ( 
+
+             Id INT  AUTO_INCREMENT   PRIMARY KEY, 
+
+              Item_name   VARCHAR(255), 
+
+              Description    TEXT, 
+
+               color VARCHAR(100), 
+
+               Contact_info  VARCHAR(255), 
+
+                date_found DATE 
+
+); 
+
+ 
+
+ 
+
+2. Lost Item Form(HTML) 
+
+This is just a simple form to report a lost item : 
+
+<form action=”submit_lost_item.php”   method=”POST”> 
+
+           <label for=”item_name”>Item Name:</label> 
+           <input type="text" id="item_name" name="item_name" required><br> 
+
+   <label for="description">Description:</label> 
+    <textarea id="description" name="description" required></textarea><br> 
+ 
+    <label for="color">Color:</label> 
+    <input type="text" id="color" name="color" required><br> 
+ 
+    <label for="contact_info">Contact Info:</label> 
+    <input type="text" id="contact_info" name="contact_info" required><br> 
+ 
+    <label for="date_lost">Date Lost:</label> 
+    <input type="date" id="date_lost" name="date_lost" required><br> 
+ 
+    <button type=”submit”>Submit</button>          
+</form> 
+
+ 
+
+3. Found Item Form (HTML) 
+
+A form to log a found item: 
+
+Item Name: 
+
+ 
+
+<label for="description">Description:</label> 
+<textarea id="description" name="description" required></textarea><br> 
+ 
+<label for="color">Color:</label> 
+<input type="text" id="color" name="color" required><br> 
+ 
+<label for="contact_info">Contact Info:</label> 
+<input type="text" id="contact_info" name="contact_info" required><br> 
+ 
+<label for="date_found">Date Found:</label> 
+<input type="date" id="date_found" name="date_found" required><br> 
+ 
+<button type="submit">Submit</button> 
+ 
+
+ 
+
+4. Backend Logic (Matching System) 
+
+ A PHP script to find matches between lost and found items based on their names and color. 
+
+ 
+
+connect_error) { die("Connection failed: " . $conn->connect_error); } $sql = "SELECT l.item_name, l.color, l.description AS lost_description, f.description AS found_description, f.contact_info AS found_contact FROM lost_items l INNER JOIN found_items f ON l.item_name = f.item_name AND l.color = f.color"; $result = $conn->query($sql); if ($result->num_rows > 0) { echo " 
+
+Matches Found: 
+
+"; while ($row = $result->fetch_assoc()) { echo " 
+
+Item: " . $row["item_name"] . " 
+
+"; echo "Color: " . $row["color"] . " 
+
+"; echo "Lost Description: " . $row["lost_description"] . " 
+
+"; echo "Found Description: " . $row["found_description"] . " 
+
+"; echo "Finder's Contact: " . $row["found_contact"] . " 
+
+"; } } else { echo "No possible matches found."; } $conn->close(); ?> 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+0 

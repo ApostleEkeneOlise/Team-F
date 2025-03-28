@@ -1,1 +1,17 @@
 A2 SPRINT BACKGLOG
+
+As a user, I want to fill out a form to report a lost item, so that I can increase the chances of finding it. (High)
+
+As a user, I want to fill out a form to report a found item, so that I can increase the chances of finding it. (High)
+
+As a user, I want to receive a unique reference ID for my report, so that I can track its progress. (low)
+
+As a user, I want an intelligent system to match lost and found items, so that I can get notified when there’s a potential match. (High)
+
+As a user, I want to receive a notification when a match is found, so that I can contact the finder. (Medium)
+
+As an admin, I want to generate reports on item recovery statistics, so that I can track the platform’s efficiency. (Medium)
+
+As a user, I want to search for lost and found items, so that I can quickly find relevant matches.(High)
+
+As a user, I want to see a list of recently lost/found items, so that I can check for my item updates.(High)
